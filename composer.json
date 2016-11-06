@@ -1,0 +1,21 @@
+{
+    "name": "softw/ocrenbb",
+    "description": "a php simple application",
+    "type": "project",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "softw",
+            "email": "edukar90@hotmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "psr-4": {
+        "Core\\":"core/",
+        "Html\\":"html/"
+    },
+    "require": {
+        "paypal/rest-api-sdk-php": "*",
+        "phpmailer/phpmailer": "^5.2"
+    }
+}
